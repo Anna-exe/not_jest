@@ -1,4 +1,8 @@
-const addition = require("../tests/calc");
+/**
+ * @jest-environment jsdom
+ */
+
+const addition = require("../calc");
 
 describe("Calculator", () => {
     describe("Addition function", () => {
